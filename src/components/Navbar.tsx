@@ -14,7 +14,7 @@ const Navbar = () => {
     { title: 'Contact', url: '/contact' },
   ]
   return (
-    <div className='flex justify-between items-center p-4 bg-green-600'>
+    <div className='flex justify-between items-center px-6 py-4 bg-green-600 lg:px-20'>
       <img src="public/logo.svg" alt="/" className='w-12 h-12 cursor-pointer'/>
       <ul className='flex gap-4 bg-amber-200 p-2 text-l font-bold'>
         {navItems.map((item) => (
