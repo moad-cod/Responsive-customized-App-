@@ -2,16 +2,15 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 
-import Contact from './components/Contact'
-import Features from './components/Features'
 import Footer from './components/Footer'
 const App = () => {
   return (
-    <section>
+    <section className='flex flex-col min-h-screen '>
       <Navbar />
-      <Hero />
-      <Features />
-      <Contact />
+      <main className="flex-grow">
+        <Hero />
+        {/* other page content */}
+      </main>
       <Footer />
     </section>
   )

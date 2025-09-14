@@ -15,6 +15,8 @@ const Hero = () => {
     { id: 5, img: "/models/pic5.jpg", text: "Top 10 ideas for your profile" },
     { id: 6, img: "/models/pic6.jpg", text: "Top 10 ideas for your profile" },
   ];
+
+ 
   return (
     <section className="p-6 lg:px-20">
       <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
